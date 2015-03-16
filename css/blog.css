@@ -1,0 +1,146 @@
+.nav {
+    width: 700px;
+    margin: 0px auto;
+    text-align: left;
+    padding: 15px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #555;
+}
+.loginSignUp {
+  width: 350px;
+  padding: 0;
+  text-align: left;
+  display: inline-block;
+}
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.nav li {
+    display: inline;    
+}
+ 
+.nav a {
+    text-decoration: none;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 5px 0 5px 0;
+    color: #555;
+    display: inline-block;
+}
+ 
+.nav a:hover {
+    border-bottom: #6496c8 solid 3px;
+}
+
+.nav li + li:before {
+    content: "|";
+    padding: 0 40px;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #555;
+  margin: 50px 0px;
+  padding: 0px;
+  text-align: center;
+  background-color: #EDEDEE;
+  
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #333;
+}
+
+.bodyText {
+    width: 970px;
+    margin: 0px auto;
+    text-align: left;
+    padding: 15px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #555;
+}
+
+.formText {
+    width: 250px;
+    text-align: left;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #555;
+}
+
+button.sub {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  padding: 1px 20px;
+  font-size: 13px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.8;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 0;
+  color: #fff;
+  background-color: #6496c8;
+  text-shadow: -1px 1px #417cb8;
+  border: none;
+}
+button:focus.sub {
+  outline: none
+}
+
+button:hover.sub {
+  background-color: #346392;
+  text-shadow: -1px 1px #27496d;
+}
+
+button:active.sub {
+  background-color: #27496d;
+  text-shadow: -1px 1px #193047;
+}
+  cursor: default;
+}
+
+table {
+	background-color: #EDEDEE;
+	width: 100%;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #555;
+}
+th, td {
+	border-bottom: 1px solid #DFDFDF;
+	padding-right: 30px;
+}
+thead {
+	padding: 7px 7px;
+	padding-right: 30px;
+	text-shadow: rgba(255, 255, 255, 0.796875) 0px 1px 0px;
+	font-weight: normal;
+	line-height: 1.3em;
+	font-size: 16px;
+	border-bottom: 1px solid #DFDFDF;
+}
+td {
+	padding: 4px 0 4px;
+	padding-right: 60px;
+	font-size: 13px;
+}
+
+input, textarea {
+    -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+    -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+    box-sizing: border-box;
+    padding : 0;
+    margin  : 0;
+    width   : 100%;
+}
+
+.audio-ui .ui-dialog-titlebar {
+    display: none;
+}
+
+
+
+

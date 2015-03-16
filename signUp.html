@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset = "UTF-8">
+    <title>toneBox</title>
+    <link rel="stylesheet" href="css/blog.css"></link>
+  </head>
+  <body>
+    <img src="images/toneLogo.jpg" alt="toneBox"><p>
+    <h3>Enter a username and password to get started.</h3>
+    <form class="loginSignUp" action="newUser.php" method="post">
+      Username:
+      <input type="text" name="uName" id="uName">
+      Password:
+      <input type="password" name="pWord" id="pWord"><p>
+      <button type="submit" id="signUp" class="sub" name="signUp">Sign Up</button>
+    </form>
+    <p></p>
+    <div id="signUpMessage"></div>
+    <p>Already a member? Click <a href="http://web.engr.oregonstate.edu/~picottes/final/login.html">here</a>.</p>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://web.engr.oregonstate.edu/~picottes/final/js/newUserAuth.js"></script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset = "UTF-8">
+    <title>toneBox</title>
+    <link rel="stylesheet" type="text/css" href="css/blog.css"></link>
+  </head>
+  <body>
+    <img src="images/toneLogo.jpg" alt="toneBox">
+	<div class="nav">
+	<ul>
+      <li><a href="http://web.engr.oregonstate.edu/~picottes/final/login.html">LOG IN</a></li>
+      <li><a href="http://web.engr.oregonstate.edu/~picottes/final/signUp.html">SIGN UP</a></li>
+    </ul>
+    </div>
+    <div class="bodyText">
+    <p>toneBox is a community supported site dedicated to the study of the sonic aging of musical instruments.
+    Our passion is music and the development of tools to understand the process of musical
+    instrument maturation and the tone we all associate with fine vintage instruments.</p>
+    <p>We decided to develop this site to allow not just makers of instruments, but owners as
+    well, to archive and study the tonal aging of their instruments. We do this by maintaining
+    user uploaded sound files and providing proprietary graphing and comparison tools that 
+    allow the user to track frequency response changes over time, overtone and fundamental decay
+    and note balance.</p>
+    <p>Through this collaboration between instrument makers and consumers over time we hope 
+    to develop a knowledge base that will lead to a refinement of design choices my makers
+    and an educated consumer base.</p> 
+    <p>Currently we are using SoundCloud to embed audio tracks for our users. If have not already
+    please go <a href="http://www.soundcloud.com" target="_blank">here</a> to create an account and follow the directions
+    to embed audio clips</p>
+    <p>Click the button below to see a sample page.</p>
+    <form action="logCheck.php" method="post">
+      <input type="hidden" name="uName" id="uName" value="toneBox">
+      <input type="hidden" name="pWord" id="pWord" value="sample">
+      <button type="submit" class="sub" id="login" name="login">Sample Page</button>
+    </form>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://web.engr.oregonstate.edu/~picottes/final/js/logCheck.js"></script>
+  </body>
+</html>
